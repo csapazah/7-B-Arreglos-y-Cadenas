@@ -7,7 +7,7 @@ int main(){
         cin >> A[i];
     }
     for(int i = n-1; i>=0;i--){
-        cout << A[i] << " ";
+           cout << A[i] << " ";//salida del arreglo al reves
     }
 
     return 0;
