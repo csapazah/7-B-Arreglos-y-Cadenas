@@ -11,6 +11,17 @@ int main(){
         while (palabra[p_largo] != '\0'){
             p_largo++;
         }
+        int inicio = 0;
+        int fin = largo - 1;
+        bool esPalindromo = true;
+
+        while (inicio < fin){
+            if(palabra[inicio] != palabra[fin]){
+                esPalindromo = false;
+            }
+            inicio++;
+            fin--;
+        }
     }
     return 0;
 }
