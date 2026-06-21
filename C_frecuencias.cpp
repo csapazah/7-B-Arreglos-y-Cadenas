@@ -9,6 +9,9 @@ int main(){
         cin >> f;
         frec[f]++;
     }
+    for(int i = 1; i<=p;i++){
+        cout << i << "-" << frec[i] << endl;
+    }
 
     return 0;
 }
