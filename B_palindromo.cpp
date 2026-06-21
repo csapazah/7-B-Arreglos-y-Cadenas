@@ -12,7 +12,7 @@ int main(){
             p_largo++;
         }
         int inicio = 0;
-        int fin = largo - 1;
+        int fin = p_largo - 1;
         bool esPalindromo = true;
 
         while (inicio < fin){
