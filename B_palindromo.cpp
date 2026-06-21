@@ -22,6 +22,7 @@ int main(){
             inicio++;
             fin--;
         }
+        esPalindromo? cout << "P" << endl :cout << "NP" << endl;
     }
     return 0;
 }
