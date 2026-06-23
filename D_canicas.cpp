@@ -9,5 +9,8 @@ int main(){
         cin >> conteo;
         Vasos[conteo]++;
     }
+    for(int i = 1; i <= n; i++){
+        cout << Vasos[i] << endl;
+    }
     return 0;
 }
