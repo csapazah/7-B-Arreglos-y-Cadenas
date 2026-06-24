@@ -29,6 +29,15 @@ int main(){
 			}
 		}
 	}
+
+    int posletras = 0; // Posicion actual del arreglo letras
+	
+	for(int i=0 ; i < largo ; i++){
+		if(isalpha(frase[i])){
+			frase[i] = letras[posletras];
+			posletras++;
+		}
+	}
     
     return 0;
 }
