@@ -12,5 +12,12 @@ int main(){
     char letras[101];
 	int cantletras = 0;
     
+    for(int i=0; i<largo; i++){
+		if(isalpha(frase[i])){
+			letras[cantletras] = frase[i];
+			cantletras++;
+		}
+	}
+
     return 0;
 }
