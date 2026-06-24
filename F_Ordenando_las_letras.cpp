@@ -8,5 +8,9 @@ int main(){
 	while(frase[largo] != '\0'){
 		largo++;
 	}
+
+    char letras[101];
+	int cantletras = 0;
+    
     return 0;
 }
