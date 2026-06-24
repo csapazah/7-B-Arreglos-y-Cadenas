@@ -38,6 +38,8 @@ int main(){
 			posletras++;
 		}
 	}
-    
+
+    cout << frase << endl;
+
     return 0;
 }
